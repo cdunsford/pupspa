@@ -160,7 +160,7 @@ body {
   Use grid-row to define the starting row of the information blocks (.address, .hours, and .call-us) and testimonial blocks 
   (.one and .two), and how many rows they will span.
   */
-  @media screen and (max-width: 600px) {
+  @media only screen and (max-device-width: 600px) {
 
     .grid {
         grid-template-columns:  100%;
